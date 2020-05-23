@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pwner de Casa</string>
+    <string name="item_name_hint">Ingrese el nombre del artículo.</string>
+    <string name="item_name_label">Nombre</string>
+    <string name="item_serial_label">De serie</string>
+    <string name="item_serial_hint">Ingrese el número de serie del artículo.</string>
+    <string name="item_value_label">Valor</string>
+    <string name="item_value_hint">Ingrese el valor del artículo.</string>
+    <string name="date_picker_title">Fecha Agregada: </string>
+    <string name="new_item">Nuevo artículo</string>
+    <string name="show_subtitle">Mostrar subtitulo</string>
+    <string name="hide_subtitle">Ocultar subtítulo</string>
+    <string name="subtitle_format">%1$d artículos</string>
+    <string name="item_report_text">Enviar reporte</string>
+    <string name="item_report">%1$s. El artículo fue añadido en %2$s. %3$s, y %4$s.</string>
+    <string name="item_report_subject">Informe de artículo de Pwner de Casa</string>
+    <string name="send_report">Enviar informe del artículo a través </string>
+    <string name="report_no_name">Este artículo no tiene nombre</string>
+    <string name="report_has_name">El nombre de este artículo es </string>
+    <string name="report_no_serial">Este artículo no tiene un número de serie</string>
+    <string name="report_has_serial">El número de serie de este artículo es </string>
+    <string name="report_value">el valor de este artículo es $</string>
+</resources>

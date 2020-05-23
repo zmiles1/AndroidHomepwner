@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_margin="16dp"
+    android:layout_height="match_parent">
+    
+    <TextView
+        android:id="@+id/item_name_l"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/item_name"
+        android:textSize="20sp"
+        android:text="@string/item_name_label"/>
+    
+    <EditText
+        android:id="@+id/item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/item_name_l"
+        android:hint="@string/item_name_hint"/>
+
+    <TextView
+        android:id="@+id/item_serial_l"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_name_l"
+        android:layout_alignBaseline="@+id/item_serial"
+        android:textSize="20sp"
+        android:text="@string/item_serial_label"/>
+
+    <EditText
+        android:id="@+id/item_serial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/item_serial_l"
+        android:layout_below="@+id/item_name"
+        android:hint="@string/item_serial_hint"/>
+
+    <TextView
+        android:id="@+id/item_value_l"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_serial_l"
+        android:layout_alignBaseline="@+id/item_value"
+        android:textSize="20sp"
+        android:text="@string/item_value_label"/>
+
+    <EditText
+        android:id="@+id/item_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/item_value_l"
+        android:layout_below="@+id/item_serial"
+        android:hint="@string/item_value_hint"/>
+
+    <Button
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_value"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:text=" "/>
+
+    <Button
+        android:id="@+id/item_report"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/date"
+        android:text="@string/item_report_text"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"/>
+
+    <ImageView
+        android:id="@+id/item_photo"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_below="@+id/item_report"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageButton
+        android:id="@+id/item_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_report"
+        android:src="@android:drawable/ic_menu_camera"/>
+</RelativeLayout>
